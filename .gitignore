@@ -1,0 +1,30 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# Ignore node_modules and build output
+node_modules/
+build/
+dist/
+# Ignore pycache files
+__pycache__/
+# Ignore Python virtual environments
+venv/
+env/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore log files
+*.log
+# Ignore coverage reports
+coverage/
+# Ignore test results
+test-reports/
+# Ignore pytest cache files
+pytest_cache/
+# Ignore environment variable files
+.env
